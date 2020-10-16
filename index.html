@@ -64,7 +64,7 @@
     </div>
     <div class="container">
         <div class="order" id="order">
-            <h2 class="text-center" id="order">Order </h2>
+            <div class="text-center" id="order">Order</div>
             <div class="form-group row">
                 <label for="Flavour"><br>Choose Your Pizza Flavour:</label>
                 <select class="custom-select custom-select-md-3 flavour" id="flavour" required>
@@ -82,9 +82,9 @@
                 <br>
                 <label for="Size"><br>Chose Your Preferred Size:</label><br><br>
                 <select class="custom-select custom-select-md-3" id="size" required>
-                    <option label="small" value="650">Small</option>
-                    <option label="medium" value="850">Medium</option>
-                    <option label="large" value="1300">Large</option>
+                    <option value="650">Small</option>
+                    <option value="850">Medium</option>
+                    <option value="1300">Large</option>
                 </select>
                 <label for="Crust">Choose your favorite Crust:</label>
                 <select class="custom-select custom-select-md-3" id="crust" required>
@@ -112,9 +112,12 @@
                 </select>
                 </form>
                 <div id="quant">
-                    <label for="quantity">Quantinty</label><br>
-                    <input id="quantity" type="number" value="1"><br>
+                    <label for="quantity">Quantinty</label>
+                    <input id="quantity" type="number" value="1">
                 </div>
+                <br />
+                <br />
+                <br />
                 <br />
                 <div id="button">
                     <button type="submit" class="btn btn-success checkout" id="checkout">checkout</button>

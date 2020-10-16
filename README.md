@@ -1,5 +1,5 @@
 #
-#### Rovine Sydney Wanjala, 16'/10/2020
+#### Rovine Sydney Wanjala, 16/10/2020
 #### By Rovine Wanjala
 ## Description
 This is a pizza website used to order and get ones delicacies at your door step.
