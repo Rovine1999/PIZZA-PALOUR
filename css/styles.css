@@ -3,6 +3,6 @@ h1 {
     color: brown;
 }
 
-.home > .nav-bar > a {
-    display: flex;
+#size, #toppings, #crust, #flavour {
+    width: 70%;
 }
