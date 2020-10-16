@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>PIZZA-PALOUR</title>
 </head>
 
@@ -16,44 +16,50 @@
 
         <div class="row">
             <div class="col-md-3">
-                <img src="/images/buffallo pizza.jpg" width="200">
+                <img src="images/buffallo pizza.jpg" width="200">
                 <div class="caption">Buffalo Pizza</div>
             </div>
             <div class="col-md-3">
-                <img src="/images/cheese pizza.jpg" width="200">
+                <img src="images/cheese pizza.jpg" width="200">
                 <div class="caption">Cheese Pizza</div>
             </div>
             <div class="col-md-3">
-                <img src="/images/chicken pizza.jpg" width="200">
+                <img src="images/chicken pizza.jpg" width="200">
                 <div class="caption">Chicken Pizza</div>
             </div>
             <div class="col-md-3">
-                <img src="/images/hawaiian pizza.jpg" width="200">
+                <img src="images/hawaiian pizza.jpg" width="150">
                 <div class="caption">Hawaiian Pizza</div>
             </div>
-            <!-- <div class="col-md-3">
-            <img src="/images/magherita pizza.jpg" width="200">
-            <div class="caption">Magheritta Pizza</div>
-        </div> -->
+             
         </div>
         <div class="row">
             <div class="col-md-3">
-                <img src="/images/meat pizza.jpg" width="200">
+                <img src="images/meat pizza.jpg" width="200">
                 <div class="caption">Meat Pizza</div>
             </div>
             <div class="col-md-3">
-                <img src="/images/peperoine pizza.jpg" width="200">
+                <img src="images/peperoine pizza.jpg" width="200">
                 <div class="caption">Peperoni Pizza</div>
             </div>
             <div class="col-md-3">
-                <img src="/images/pineapple pizza.webp" width="200">
+                <img src="images/pineapple pizza.webp" width="200">
                 <div class="caption">Pineapple Pizza</div>
             </div>
             <div class="col-md-3">
-                <img src="/images/supreme pizza.jpg" width="200">
+                <img src="images/supreme pizza.jpg" width="154" height="114">
                 <div class="caption">Supreme Pizza</div>
             </div>
-
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/magherita pizza.jpg" width="200">
+                <div class="caption">Magheritta Pizza</div>
+            </div> 
+            <div class="col-md-3">
+                <img src="images/works pizza.jpg" width="200">
+                <div class="caption">Works Pizza</div>
+            </div>
         </div>
     </div>
     <div class="container">
@@ -79,21 +85,22 @@
                     <option label="small" value="650">Small</option>
                     <option label="medium" value="850">Medium</option>
                     <option label="large" value="1300">Large</option>
-                </select><br>
-                <label for="Crust"><br>Choose your favorite Crust:</label><br><br>
+                </select>
+                <label for="Crust">Choose your favorite Crust:</label>
                 <select class="custom-select custom-select-md-3" id="crust" required>
-                    <option value="thin">Thin Crust @ Ksh. 100</option>
+                    <option value="thin">Stuffed Crust @ Ksh. 100</option>
                     <option value="thick">Thick Crust @ Ksh. 150</option>
+                    <option value="custom">Thin Crust @ sh. 280</option>
                     <option value="flatbread">FlatBread Crust @ sh. 180</option>
-                    <option value="custom">Custom Crust @ sh. 280</option>
-                </select><br>
-                <label for="toppings"><br>Select Your favourite Toppings</label><br><br>
+                    <option value="custom">Crispy Crust @ sh. 280</option>
+                    <option value="custom">Glutten-free Crust @ sh. 250</option>
+                </select>
+                <label for="toppings">Select Your favourite Toppings</label>
                 <select class="custom-select custom-select-md-3" id="toppings" required>
                     <option value="tomato">Tomato @ sh. 80</option>
                     <option value="onions">Onions @ sh. 80</option>
                     <option value="mushroom">Mushroom @ sh. 80</option>
                     <option value="greenpepper">Green Pepper @ sh. 80</option>
-                    <option value=""></option>
                     <option value="olives">Olives @ sh. 120</option>
                     <option value="pineapple">Pineapple @ sh. 120</option>
                     <option value="sweetcorn">Sweet Corn @ sh. 120</option>
@@ -103,7 +110,7 @@
                     <option value="beef">Beef Peperoni @ sh. 170</option>
                     <option value="chicken">Periperi Chicken @ sh. 170</option>
                 </select>
-                </form><br><br>
+                </form>
                 <div id="quant">
                     <label for="quantity">Quantinty</label><br>
                     <input id="quantity" type="number" value="1"><br>
