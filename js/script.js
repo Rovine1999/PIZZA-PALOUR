@@ -1,44 +1,43 @@
-function myfunction()
-var checkOut = document.addEventListener("click", function() {
- var Flavour = parseInt(document.getElementById("#flavour").value);
- var Size = parseInt(document.getElementById("#size").value);
- var Crust = parseInt(document.getElementById("#crust").value);
- var toppings = parseInt(document.getElementById("#toppings").value);
- var quant = parseInt(document.getElementById("#quantity").value);
- var totalCost = (Flavour + Size + Crust + toppings) * quant;
+function myFunction() {
+//  var checkOut = document.addEventListener("click", function() {
+ var flavour = document.getElementById("flavour").value;
+ var size = document.getElementById("size").value;
+ var crust = document.getElementById("crust").value;
+ var toppings =document.getElementById("toppings").value;
+ var quant = document.getElementById("quantity").value;
+ var totalCost = (flavour + size + crust + toppings) * quant;
  alert(`Your order has been received amounting to ${totalCost}`);
  prompt(`please enter your location.`);
  alert(`Your order will be delivered in a few, please have some ksh.250 together with total amount for delivery.`)
-});
+};
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-$("#order").submit(function(event) {
+// $("#order").submit(function(event) {
     
-    function flavour() {
-        var Flavour = document.getElementById("#flavour").value;
-        return parseInt(Flavour);
-    }
-    function size() {
-        var Size = document.getElementById("#size").value;
-        return parseInt(Size);
-    }
-    function crust() {
-        var Crust = document.getElementById("#crust").value;
-        return parseInt(Crust);
-    }
-    function toppings() {
-        var toppings = document.getElementById("#toppings").value;
-        return parseInt(toppings);
-    }
-    function quantity() {
-        var quantity = document.getElementById("#quantity").value;
-        return parseInt(quant);
-    }
+//     function flavour() {
+//         var flavour = document.getElementById("flavour").value;
+//         return parseInt(Flavour);
+//     }
+//     function size() {
+//         var Size = document.getElementById("#size").value;
+//         return parseInt(Size);
+//     }
+//     function crust() {
+//         var Crust = document.getElementById("#crust").value;
+//         return parseInt(Crust);
+//     }
+//     function toppings() {
+//         var toppings = document.getElementById("#toppings").value;
+//         return parseInt(toppings);
+//     }
+//     function quantity() {
+//         var quantity = document.getElementById("#quantity").value;
+//         return parseInt(quant);
+//     }
     
     
-    function Order(flavor, size, crust, toppings, quantity) {
-    function Order(fzlavor, size, crust, toppings, quantity) {
+    function Order(flavour, size, crust, toppings, quantity) {
         this.newFlavour = flavour;
         this.newSize = size;
         this.newCrust = crust;
@@ -63,5 +62,4 @@ $("#order").submit(function(event) {
     
     $("#text-center").reset();
     event.preventDefault();
-  });
-});
+
