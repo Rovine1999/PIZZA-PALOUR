@@ -66,7 +66,7 @@
         <div class="order" id="order">
             <div class="text-center" id="order">Order</div>
             <div class="form-group row">
-                <label for="Flavour"><br>Choose Your Pizza Flavour:</label>
+                <label for="Flavour">Choose Your Pizza Flavour:</label>
                 <select class="custom-select custom-select-md-3 flavour" id="flavour" required>
                     <option value="veggie">Veggie</option>
                     <option value="chicken">Chicken</option>
@@ -80,7 +80,7 @@
                     <option value="works">Works</option>
                 </select>
                 <br>
-                <label for="Size"><br>Chose Your Preferred Size:</label><br><br>
+                <label for="Size">Chose Your Preferred Size:</label>
                 <select class="custom-select custom-select-md-3" id="size" required>
                     <option value="650">Small</option>
                     <option value="850">Medium</option>
@@ -88,42 +88,40 @@
                 </select>
                 <label for="Crust">Choose your favorite Crust:</label>
                 <select class="custom-select custom-select-md-3" id="crust" required>
-                    <option value="thin">Stuffed Crust @ Ksh. 100</option>
+                    <option value="stuffed">Stuffed Crust @ Ksh. 100</option>
                     <option value="thick">Thick Crust @ Ksh. 150</option>
-                    <option value="custom">Thin Crust @ sh. 280</option>
+                    <option value="thin">Thin Crust @ sh. 280</option>
                     <option value="flatbread">FlatBread Crust @ sh. 180</option>
-                    <option value="custom">Crispy Crust @ sh. 280</option>
-                    <option value="custom">Glutten-free Crust @ sh. 250</option>
+                    <option value="Crispy">Crispy Crust @ sh. 280</option>
+                    <option value="glutten">Glutten-free Crust @ sh. 250</option>
                 </select>
                 <label for="toppings">Select Your favourite Toppings</label>
                 <select class="custom-select custom-select-md-3" id="toppings" required>
-                    <option value="tomato">Tomato @ sh. 80</option>
+                    <option value="tomato">Spinach @ sh. 80</option>
                     <option value="onions">Onions @ sh. 80</option>
                     <option value="mushroom">Mushroom @ sh. 80</option>
-                    <option value="greenpepper">Green Pepper @ sh. 80</option>
-                    <option value="olives">Olives @ sh. 120</option>
+                    <option value="greenpepper">Green Peppers @ sh. 80</option>
+                    <option value="olives">Black Olives @ sh. 120</option>
                     <option value="pineapple">Pineapple @ sh. 120</option>
                     <option value="sweetcorn">Sweet Corn @ sh. 120</option>
-                    <option value="macon">Macon @ sh. 120</option>
-                    <option value="mince">Mince @ sh. 120</option>
-                    <option value=""></option>
-                    <option value="beef">Beef Peperoni @ sh. 170</option>
+                    <option value="macon">Bacon @ sh. 120</option>
+                    <option value="mince">Sausage @ sh. 120</option>
+                    <option value="beef">Extra Cheese @ sh. 170</option>
                     <option value="chicken">Periperi Chicken @ sh. 170</option>
                 </select>
                 </form>
                 <div id="quant">
                     <label for="quantity">Quantinty</label>
-                    <input id="quantity" type="number" value="1">
+                    <input id="quantity" type="number" min="1" max="10">
                 </div>
                 <br />
                 <br />
                 <br />
                 <br />
-                <div id="button">
+                <!-- <div id="button">
                     <button type="submit" class="btn btn-success checkout" id="checkout">checkout</button>
-                </div>
+                </div> -->
             </div>
-            <div class="col-sm-2"></div>
         </div>
     </div>
     </div>
