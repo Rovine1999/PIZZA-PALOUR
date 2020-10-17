@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     color: brown;
-    text-decoration: underline dotted;
+    text-decoration: underline dotted springgreen;
 }
 
 #size, #toppings, #crust, #flavour {
