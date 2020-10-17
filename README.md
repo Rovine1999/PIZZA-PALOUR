@@ -18,7 +18,7 @@ LinkedIn @ rovinewanjala.
 ### License
 MIT License
 
-Copyright (c) [2020] [Rovine Sydney Wanjala]
+Copyright (c) 2020 Rovine Sydney Wanjala
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

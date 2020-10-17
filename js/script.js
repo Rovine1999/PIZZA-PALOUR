@@ -1,4 +1,4 @@
-function myfunction
+function myfunction()
 var checkOut = document.addEventListener("click", function() {
  var Flavour = parseInt(document.getElementById("#flavour").value);
  var Size = parseInt(document.getElementById("#size").value);
