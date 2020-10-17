@@ -1,15 +1,16 @@
-const order = document.getElementById("btn");
+function myfunction
 var checkOut = document.addEventListener("click", function() {
- var Flavour = parseInt(document.getElementById("flavour").value);
- var Size = parseInt(document.getElementById("size").value);
- var Crust = parseInt(document.getElementById("crust").value);
- var toppings = parseInt(document.getElementById("toppings").value);
- var quant = parseInt(document.getElementById("quantity").value);
+ var Flavour = parseInt(document.getElementById("#flavour").value);
+ var Size = parseInt(document.getElementById("#size").value);
+ var Crust = parseInt(document.getElementById("#crust").value);
+ var toppings = parseInt(document.getElementById("#toppings").value);
+ var quant = parseInt(document.getElementById("#quantity").value);
  var totalCost = (Flavour + Size + Crust + toppings) * quant;
  alert(`Your order has been received amounting to ${totalCost}`);
  prompt(`please enter your location.`);
  alert(`Your order will be delivered in a few, please have some ksh.250 together with total amount for delivery.`)
 });
+
 $(document).ready(function() {
 
 $("#order").submit(function(event) {
@@ -62,5 +63,5 @@ $("#order").submit(function(event) {
     
     $("#text-center").reset();
     event.preventDefault();
-});
+  });
 });
