@@ -7,6 +7,8 @@ function myFunction() {
  var quant = document.getElementById("quantity").value;
  var totalCost = (flavour + size + crust + toppings) * quant;
  alert(`Your order has been received amounting to ${totalCost}`);
+ prompt("enter your email address");
+ prompt("enter your phone number");
  prompt(`please enter your location.`);
  alert(`Your order will be delivered in a few, please have some ksh.250 together with total amount for delivery.`)
 };
@@ -37,29 +39,37 @@ function myFunction() {
 //     }
     
     
-    function Order(flavour, size, crust, toppings, quantity) {
-        this.newFlavour = flavour;
-        this.newSize = size;
-        this.newCrust = crust;
-        this.newTopping = toppings;
-        this.newQuantity = quantity;
-    }
+//     function Order(flavour, size, crust, toppings, quantity) {
+//         this.newFlavour = flavour;
+//         this.newSize = size;
+//         this.newCrust = crust;
+//         this.newTopping = toppings;
+//         this.newQuantity = quantity;
+//     }
     
-    var userInput = new Order(Flavour(), size(), crust(), topping(), number());
+//     var userInput = new Order(Flavour(), size(), crust(), topping(), number());
     
-    var totalCost =
-        (userInput.newSize +
-            userInput.newCrust +
-            userInput.newToppings +
-            userInput.newFlavour) *
-        userInput.newQuantity;
+//     var totalCost =
+//         (userInput.newSize +
+//             userInput.newCrust +
+//             userInput.newToppings +
+//             userInput.newFlavour) *
+//         userInput.newQuantity;
     
-    alert("Your charges for Pizza" + totalCost);
-    prompt("enter your email address");
-    prompt("enter your phone number");
-    prompt("enter your location");
-    alert("Your pizza will be delivered");
+//     alert("Your charges for Pizza" + totalCost);
+//     prompt("enter your email address");
+//     prompt("enter your phone number");
+//     prompt("enter your location");
+//     alert("Your pizza will be delivered");
     
-    $("#text-center").reset();
-    event.preventDefault();
-
+//     $("#text-center").reset();
+//     event.preventDefault();
+//         };
+//     };
+// }
+$(document).ready(function() {
+    $(".wanjala").click(function() {
+        $("#buffalo").toggle();
+        $(".buffalo").toggle();
+    });
+});

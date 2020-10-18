@@ -4,11 +4,36 @@ h1 {
     text-decoration: underline dotted springgreen;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 30%;
+    font-size: large;
+    background-color: darkgoldenrod;
+}
+
+a:hover {
+    color: red;
+}
+
 #size, #toppings, #crust, #flavour {
     width: 70%;
     margin-left: 30%;
     margin-right: 30%;
     color: chartreuse;
+}
+
+.buffalo {
+    display: none;
+}
+
+.wanjala {
+    margin-left: 40%;
+}
+
+#buffalo img {
+    border-radius: 50%;
 }
 
 .form-group {
@@ -19,3 +44,5 @@ h1 {
 #button {
     align-items: baseline;
 }
+
+
