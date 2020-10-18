@@ -44,5 +44,7 @@ a:hover {
 #button {
     align-items: baseline;
 }
+@media only screen and (max-device-width: 480px) {
 
+}
 
