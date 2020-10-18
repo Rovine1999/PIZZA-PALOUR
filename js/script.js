@@ -1,11 +1,10 @@
 function myFunction() {
-//  var checkOut = document.addEventListener("click", function() {
  var flavour = document.getElementById("flavour").value;
  var size = document.getElementById("size").value;
- var crust = document.getElementById("crust").value;
- var toppings =document.getElementById("toppings").value;
- var quant = document.getElementById("quantity").value;
- var totalCost = (flavour + size + crust + toppings) * quant;
+ var crust = parseInt(document.getElementById("crust").value);
+ var toppings = parseInt(document.getElementById("toppings").value);
+ var quant = parseInt(document.getElementById("quantity").value);
+ var totalCost = (crust + toppings) * quant;
  alert(`Your order has been received amounting to ${totalCost}`);
  prompt("enter your email address");
  prompt("enter your phone number");
