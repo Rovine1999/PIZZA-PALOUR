@@ -97,7 +97,7 @@
         <div class="order" id="Order">
             <div class="text-center" id="order">Place Your Order</div>
             <div class="form-group row">
-                <label for="Flavour">Choose Your Pizza Flavour:</label>
+                <label for="Flavour"><span>Your Pizza Flavour:</span></label>
                 <select class="custom-select custom-select-md-3 flavour" id="flavour" required>
                     <option value=""></option>
                     <option value="veggie">Veggie</option>
@@ -112,24 +112,24 @@
                     <option value="works">Works</option>
                 </select>
                 <br>
-                <label for="Size">Choose Your Preferred Size:</label>
+                <label for="Size"><span>Your Preferred Size:</span></label>
                 <select class="custom-select custom-select-md-3" id="size" required>
                     <option value=""></option>
                     <option value="">Small</option>
                     <option value="">Medium</option>
                     <option value="">Large</option>
                 </select>
-                <label for="Crust">Choose Your Favorite Crust:</label>
+                <label for="Crust"><span>Your Favorite Crust:</span></label>
                 <select class="custom-select custom-select-md-3" id="crust" required>
                     <option value=""></option>
-                    <option value="100">Stuffed Crust @ Ksh. 100</option>
+                    <option value="100">Crust @ Ksh. 100</option>
                     <option value="150">Thick Crust @ Ksh. 150</option>
                     <option value="280">Thin Crust @ sh. 280</option>
                     <option value="180">FlatBread Crust @ sh. 180</option>
                     <option value="280">Crispy Crust @ sh. 280</option>
                     <option value="250">Glutten-free Crust @ sh. 250</option>
                 </select>
-                <label for="toppings">Select Your Favourite Toppings</label>
+                <label for="toppings"><span>Your Favourite Toppings</span></label>
                 <select class="custom-select custom-select-md-3" id="toppings" required>
                     <option value=""></option>
                     <option value="80">Spinach @ sh. 80</option>
@@ -144,7 +144,7 @@
                     <option value="170">Extra Cheese @ sh. 170</option>
                     <option value="170">Periperi Chicken @ sh. 170</option>
                 </select>
-                <lebel for="location">Select Your Location</lebel>
+                <label for="location"><span>Your Location</span></label>
                 <select class="custom-select custom-select-md-3" id="location" required>
                     <option></option>
                     <option value="250">Thika @ sh .250</option>
@@ -158,8 +158,8 @@
                     <option value="200">Juja @ sh .200</option>
                     <option value="350">Nakuru @ sh .350</option>
                 </select>
-                <label for="quantity" id="quantity">Quantinty</label>
-                <select class="custom-select custom-select-md-3" id="quant">
+                <!-- <label for="quantity" id="quantity">Quantinty</label>
+                <select class="custom-select custom-select-md-3" type="number" id="quantity">
                     <option value=""></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -171,12 +171,13 @@
                     <option value="8">8</option>
                     <option value="9">9</option>
                     <option value="10">10</option>
-                </select>
-                </form>
-                <!-- <div id="quant">
+                </select> -->
+                <div id="quant">
                     <button for="quantity">Quantinty</button>
                     <input id="quantity" type="number" min="1" max="10">
-                </div> -->
+                </div> 
+                </form>
+                
                
                     <button class="btn btn-primary"  onclick="myFunction()" id="checkout">Checkout</button>
                         <!-- <button type="submit" class="btn-primary">Checkout</button> -->
