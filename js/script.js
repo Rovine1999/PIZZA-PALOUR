@@ -11,6 +11,7 @@ function myFunction() {
     // alert("Your quantity is " + quant + " pieces")
     var totalCost = location + (crust + toppings) * quant;
     alert(`Your order has been received amounting to ${totalCost}`);
+    prompt("Enter Your location");
     prompt("Enter your phone number");
     alert("Your order will be delivered in a while, please have " + totalCost + "/=" + " amount for delivery.")
 };
