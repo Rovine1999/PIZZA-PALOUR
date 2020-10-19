@@ -17,7 +17,7 @@ a:hover {
     color: red;
 }
 
-#size, #toppings, #crust, #flavour, #location, #quant {
+#size, #toppings, #crust, #flavour, #location, #quant, #delivery {
     width: 70%;
     margin-left: 30%;
     margin-right: 30%;
@@ -64,5 +64,9 @@ table, th, td {
 
 table {
     width: 100%;
+}
+
+.contact {
+    margin-left: 45%;
 }
 
