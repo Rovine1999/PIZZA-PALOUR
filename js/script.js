@@ -9,10 +9,10 @@ function myFunction() {
  alert("Your location is " + location + "/=")
  var quant = parseInt(document.getElementById("quantity").value);
  alert("Your quantity is " + quant + "pieces")
- var totalCost = (((crust + toppings) * quant) + location);
+ var totalCost = (location + ((crust + toppings) * quant));
  alert(`Your order has been received amounting to ${totalCost}`);
  prompt("Enter your phone number");
- prompt("Please enter your location.");
+//  prompt("Please enter your location.");
  alert(`Your order will be delivered in a few, please have total amount for delivery.`)
 };
 
