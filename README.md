@@ -4,7 +4,7 @@
 ## Description
 This is a pizza website used to order and get ones delicacies at your door step.
 ## Setup/Installation Requirements
-To access this site click the link https://rovine1999.github.io/Delani-Studio/ then enter your details and your message then you will be notified if the message is recieved.
+To access this site click the link https://rovine1999.github.io/PIZZA-PALOUR/ then enter your details and your message then you will be notified if the message is recieved.
 ## Technologies Used
 HTML to create the page.
 CSS for styling.
