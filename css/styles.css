@@ -17,7 +17,7 @@ a:hover {
     color: red;
 }
 
-#size, #toppings, #crust, #flavour {
+#size, #toppings, #crust, #flavour, #location, #quant {
     width: 70%;
     margin-left: 30%;
     margin-right: 30%;
